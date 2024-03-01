@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class SomaSimples {
+	Scanner input = new Scanner(System.in);
+	
+	int A = 30;
+	int B = 10;
+	soma = A + B;
+	input.close();
+	
+
+	public static void main(String[] args) {
+	
+		
+	
+		
+		System.out.println("O resultado da soma é: " + soma);
+		
+		
+		
+
+	}
+
+}

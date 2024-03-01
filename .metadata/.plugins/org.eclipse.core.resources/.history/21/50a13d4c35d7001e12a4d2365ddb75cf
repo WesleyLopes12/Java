@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class Media1 {
+
+	public static void main(String[] args) {
+
+		Scanner input = new Scanner(System.in);
+
+		double A = input.nextDouble();
+		double B = input.nextDouble();
+
+		input.close();
+
+		double MEDIA = ((A*3.5) + (B *7.5)) / 11;
+
+		System.out.format("MEDIA =%.5f\n" + MEDIA);
+
+	}
+
+}

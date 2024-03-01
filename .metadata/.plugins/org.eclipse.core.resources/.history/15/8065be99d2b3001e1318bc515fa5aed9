@@ -1,0 +1,41 @@
+package CursoProjetos;
+
+public class ImprimirVariaveisNoConsole {
+
+	public static void main(String[] args) {
+		
+		
+		String filme = " Vingadores ";
+		int anoLancamento = 2015; // %d
+		int duracao = 240;
+		double notaCritica = 8.7f; // %f
+		char letraInicial = 'w'; //%c
+		boolean foiSucesso = true; // %b
+	
+		
+		System.out.println(filme + "filme");
+		System.out.println(anoLancamento + " anoLancamento ");
+		System.out.println(duracao + " Minutos "); 
+		System.out.println(notaCritica + " notaCritica " );
+		System.out.println(letraInicial + " letraInicial ");
+		System.out.println(foiSucesso + " foiSucesso ");
+		
+		// O Filme <filme> lançado em <ano> tem uma duração de <duração> minutos.
+		System.out.println(" O filme " + filme + " Lançado em " + anoLancamento + " Tem uma duração de " + duracao + " Minutos ");
+		System.out.format("O Filme %s filme lançado em %d ano tem uma duração de %d  minutos\n." , filme, anoLancamento, duracao);
+		
+		String texto = "O Filme  Vingadores  filme lançado em 2015 ano tem uma duração de 240  minutos.";
+		String texto2 = String.format("-> O Filme  Vingadores  filme lançado em 2015 ano tem uma duração de 240  minutos.\";", filme, anoLancamento, duracao);
+		System.out.println(texto);
+		System.out.println(texto2);
+		
+		String canal = " Academia dos Devs ";
+		String mensagem = " Se inscreva no canal ";
+		String mensagem2 = " Obrigado o/ ";
+		
+		String mensagemFinal = String.format("%s %s. %s" ,  mensagem, canal, mensagem2 )
+		System.out.println(mensagemFinal);
+
+	}
+
+}

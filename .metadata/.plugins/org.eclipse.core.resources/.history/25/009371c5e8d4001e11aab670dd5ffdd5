@@ -1,0 +1,38 @@
+package Animais;
+
+public class Cachorro {
+	
+	public String nome;
+	public String cor;
+	public int altura;
+	public double peso;
+	public int tamanhoDoRabo;
+	
+	public String estadoDeEspirito;
+	
+	
+	
+	public void comer() {}
+	
+	public void latir () {
+		System.out.println("Au Au");
+	}
+	
+public String pegar() {
+		
+		return "Bolinha";
+	}
+	
+	public String interagir(String acao){
+		
+	switch (acao) {
+		case "Carinho" this.estadoDeEspirito = "feliz";
+		case "Vai dormir" this.estadoDeEspirito = "Bravo";
+		case "pisar na patinha" this.estadoDeEspirito = "triste";
+		defaut: this.estadoDeEspirito = "Neutro";
+	}	
+	
+	return this.estadoDeEspirito;
+  }
+	
+}
